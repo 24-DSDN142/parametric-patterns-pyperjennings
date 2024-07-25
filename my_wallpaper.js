@@ -16,9 +16,11 @@ function setup_wallpaper(pWallpaper) {
 
 function wallpaper_background() {
   background(247, 244, 210); //light honeydew green colour
+  angleMode(DEGREES);
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
+
   fill(0, 0, 0); //black 
   triangle(60, 100, 
     135, 100, 
@@ -26,8 +28,12 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
 triangle(100, 70, 
       140, 100, 
        140, 50);
+
 fill(255, 255, 255); //black
 ellipse(100, 100, 80, 80);
+fill(0) //white
+arc(100, 100, 80, 80, 262, 50, CHORD);
+arc(100, 100, 80, 80, 125, 270, CHORD);
 fill(255, 255, 255) //white
 ellipse(80, 100, 15, 15);
 ellipse(120, 100, 15, 15);
@@ -38,7 +44,7 @@ fill(250, 175, 241) //pink
 triangle(100, 100, 
   105, 110, 
    95, 110);
-strokeWeight(1);
+strokeWeight(2);
 line(70, 110, 45, 95);
 line(70, 110, 45, 105);
 line(70, 110, 45, 115);
@@ -48,3 +54,5 @@ line(130, 110, 155, 95);
 
 
 }
+
+
