@@ -49,8 +49,8 @@ ellipse(82, 100, 15, 15);
 ellipse(120, 100, 15, 15);
 //inside of eyes
 fill(0, 0, 0); //black
-ellipse(82, 100, 9, 9);
-ellipse(120, 100, 9, 9);
+ellipse(82, 100, 5, 13);
+ellipse(120, 100, 5, 13);
 // nose
 strokeWeight(1);
 line(100, 110, 
@@ -64,6 +64,7 @@ ellipse(100, 108, 12, 6);
 
 
 // whiskers 
+fill(255, 255, 255)
 strokeWeight(1);
 line(70, 110, 45, 95);
 line(70, 110, 45, 105);
@@ -71,7 +72,7 @@ line(70, 110, 45, 115);
 line(130, 110, 155, 115);
 line(130, 110, 155, 105);
 line(130, 110, 155, 95);
-fill(0)
+
 
 }
 
