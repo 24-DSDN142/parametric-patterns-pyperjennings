@@ -59,10 +59,8 @@ line(100, 118,
    105, 120);
 line(100, 118, 
    95, 120);
-fill(250, 175, 241) //pink
+fill(246, 223, 247) //pink
 ellipse(100, 108, 12, 6);
-
-
 // whiskers 
 fill(255, 255, 255)
 strokeWeight(1);
