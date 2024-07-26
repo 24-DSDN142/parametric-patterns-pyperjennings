@@ -41,8 +41,8 @@ fill(255, 255, 255); //white
 ellipse(100, 100, 80, 80);
 // black part of face
 fill(0) //black
-arc(100, 100, 80, 80, 280, 35, CHORD);
-arc(100, 100, 80, 80, 125, 260, CHORD);
+arc(100, 100, 80, 80, 270, 35, CHORD);
+arc(100, 100, 80, 80, 125, 270, CHORD);
 // outside of eyes
 fill(255, 255, 181); //greeny yellow
 ellipse(82, 100, 15, 15);
@@ -62,7 +62,6 @@ line(100, 118,
 fill(246, 223, 247) //pink
 ellipse(100, 108, 12, 6);
 // whiskers 
-fill(255, 255, 255)
 strokeWeight(1);
 line(70, 110, 45, 95);
 line(70, 110, 45, 105);
