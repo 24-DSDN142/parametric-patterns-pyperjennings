@@ -15,7 +15,7 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(255, 255, 181); //light honeydew green colour
+  background(246, 213, 247); //light honeydew green colour
   angleMode(DEGREES);
 }
 
@@ -43,6 +43,7 @@ ellipse(100, 100, 80, 80);
 fill(0) //black
 arc(100, 100, 80, 80, 270, 35, CHORD);
 arc(100, 100, 80, 80, 125, 270, CHORD);
+arc(142, 77, 85, 90, 105, 200, CHORD);
 // outside of eyes
 fill(255, 255, 181); //greeny yellow
 ellipse(82, 100, 15, 15);
@@ -59,7 +60,7 @@ line(100, 118,
    105, 120);
 line(100, 118, 
    95, 120);
-fill(246, 223, 247) //pink
+fill(246, 213, 247) //pink
 ellipse(100, 108, 12, 6);
 // whiskers 
 strokeWeight(1);
