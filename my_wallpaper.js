@@ -44,6 +44,7 @@ fill(0) //black
 arc(100, 100, 80, 80, 270, 35, CHORD);
 arc(100, 100, 80, 80, 125, 270, CHORD);
 arc(142, 77, 85, 90, 105, 200, CHORD);
+fill(255);
 // outside of eyes
 fill(255, 255, 181); //greeny yellow
 ellipse(82, 100, 15, 15);
@@ -71,7 +72,19 @@ line(130, 110, 155, 115);
 line(130, 110, 155, 105);
 line(130, 110, 155, 95);
 
-
+//paw top 
+fill(0)
+ellipse(40, 40, 22, 22);
+ellipse(23, 33, 10, 10);
+ellipse(32, 23, 10, 10);
+ellipse(47, 23, 10, 10);
+ellipse(57, 33, 10, 10);
+//paw bottom
+ellipse(160, 160, 22, 22);
+ellipse(143, 153, 10, 10);
+ellipse(177, 153, 10, 10);
+ellipse(152, 142, 10, 10);
+ellipse(167, 142, 10, 10);
 }
 
 
