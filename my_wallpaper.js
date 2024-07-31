@@ -1,6 +1,9 @@
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
+// let rect_width  = 20;//var 1
+// let rect_height = 20; //var 2
+//var 3
+//var 4
+let facePattern = 1; //var 5
 
 
 function setup_wallpaper(pWallpaper) {
@@ -41,9 +44,18 @@ fill(255, 255, 255); //white
 ellipse(100, 100, 80, 80);
 // black part of face
 fill(0) //black
-arc(100, 100, 80, 80, 270, 35, CHORD);
-arc(100, 100, 80, 80, 125, 270, CHORD);
-arc(142, 77, 85, 90, 105, 200, CHORD);
+arc(100, 100, 80, 80, 272, 35, CHORD);//
+// arc(100, 100, 80, 80, 125, 270, CHORD);
+
+arc(100, 100, 80, 80, 142, 267, CHORD);//
+// arc(100, 100, 80, 80, 25, 270, CHORD);
+
+arc(142, 77, 85, 90, 105, 202, CHORD);
+
+arc(58, 77, 85, 90, -22, 73, CHORD);
+
+// fill(255, 0, 0);
+// ellipse(142, 77, 20, 20);
 fill(255);
 // outside of eyes
 fill(255, 255, 181); //greeny yellow
@@ -80,11 +92,13 @@ ellipse(32, 23, 10, 10);
 ellipse(47, 23, 10, 10);
 ellipse(57, 33, 10, 10);
 //paw bottom
-ellipse(160, 160, 22, 22);
-ellipse(143, 153, 10, 10);
-ellipse(177, 153, 10, 10);
-ellipse(152, 142, 10, 10);
-ellipse(167, 142, 10, 10);
+ellipse(160, 170, 22, 22);
+ellipse(143, 163, 10, 10);
+ellipse(177, 163, 10, 10);
+ellipse(152, 152, 10, 10);
+ellipse(167, 152, 10, 10);
+
+
 }
 
 
