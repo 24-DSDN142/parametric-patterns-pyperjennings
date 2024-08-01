@@ -3,6 +3,7 @@
 let eyeshape = 5 
 //var 2
 let headcolour = 3; 
+let facepatch = 1;
 //var 3
 let whisker = 100;
 //var 4
@@ -57,8 +58,20 @@ else {
   fill(255)
 }
 ellipse(100, 100, 80, 80);
+
 // black part of face
-fill(0) //
+if(facepatch==1){
+  fill(0); 
+}
+else if(facepatch==2){
+  fill(201, 139, 56);
+}
+else if(facepatch==3){
+}
+else {
+  fill(255)
+}
+strokeWeight(1);
 arc(100, 100, 80, 80, 272, 35, CHORD);//
 // arc(100, 100, 80, 80, 125, 270, CHORD);
 arc(100, 100, 80, 80, 142, 267, CHORD);//
@@ -71,7 +84,6 @@ arc(56, 77, 87, 95, -22, 75, CHORD);
 // fill(255, 0, 0);
 // ellipse(142, 77, 20, 20);
 fill(255);
-
 // outside of eyes
 fill(255, 255, 181); //greeny yellow
 ellipse(82, 100, 15, 15);
