@@ -3,7 +3,6 @@
 let eyeshape = 5 
 //var 2
 let headcolour = 3; 
-let facepatch = 1;
 //var 3
 let whisker = 100;
 //var 4
@@ -31,14 +30,16 @@ function wallpaper_background() {
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
 
 // ears
-  fill(0, 0, 0); //black 
-  triangle(60, 100, 
+fill(0);
+triangle(60, 100, 
     135, 90, 
-     60, 50);
+    60, 50);
 triangle(100, 70, 
-      140, 100, 
-       140, 50);
-fill(255, 255, 255); //white 
+    140, 100, 
+    140, 50);
+//inside of ear
+fill(255); //white 
+strokeWeight(0);
 triangle(65, 100, 
          115, 90, 
          60, 50);
@@ -57,9 +58,12 @@ else if(headcolour==3){
 else {
   fill(255)
 }
+strokeWeight(1)
 ellipse(100, 100, 80, 80);
 
 // black part of face
+let facepatch = 1;
+
 if(facepatch==1){
   fill(0); 
 }
